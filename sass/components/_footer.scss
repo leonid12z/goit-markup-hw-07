@@ -110,7 +110,7 @@
 .ftr {
   &-contacts {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
     justify-content: space-between;
 
     &__div {
@@ -129,16 +129,11 @@
       color: $bg-primary-color;
     }
 
-    &__form {
-      width: 570px;
-      height: 86px;
-    }
   }
 }
 
 .subscribe-div {
   display: flex;
-  justify-content: space-between;
 
   margin-top: 20px;
 
@@ -160,6 +155,7 @@
   &__btn {
     width: 200px;
     height: 50px;
+    margin-left: 12px;
 
     border-style: none;
     background: #2196f3;
@@ -177,6 +173,7 @@
       font-size: 16px;
       line-height: 1.87;
       color: $bg-primary-color;
+      letter-spacing: 0.06em;
 
       margin-right: 10px;
     }

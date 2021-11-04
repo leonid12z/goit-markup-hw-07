@@ -1,6 +1,6 @@
 .page-header {
   background: $bg-primary-color;
-  border: 1px solid $header-border;
+  border-bottom: 1px solid $header-border;
 }
 
 .navigation {
@@ -35,6 +35,8 @@
     &:hover,
     &:focus {
       color: $extra-color;
+
+      transition-property: $transition;
 
       transition-timing-function: $function;
       transition-duration: $duration;
