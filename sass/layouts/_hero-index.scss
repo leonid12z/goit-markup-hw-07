@@ -38,5 +38,13 @@
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background: $modal-submit;
+      transition-timing-function: $function;
+      transition-duration: $duration;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
   }
 }
